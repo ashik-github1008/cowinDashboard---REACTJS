@@ -1,0 +1,57 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.cowindashboard-app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  height: 225vh;
+  /* height: 100vh; */
+  padding-left: 120px;
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+
+.website-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.website-name {
+  color: #2cc6c6;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.dashboard-heading {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 220px;
+}
+
+.render-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.failure-img {
+  width: 50%;
+}
+
+.failure-container {
+  align-self: center;
+}
